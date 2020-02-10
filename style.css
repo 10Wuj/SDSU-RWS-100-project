@@ -1,0 +1,94 @@
+body, h1, h4, p, ul, figure, footer a{
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: 'Orbitron', sans-serif;
+	margin:0 auto;
+	width:800px;
+	background-color:#3b3b34;
+	color:rgba(256,256,256,.8);
+}
+header{
+	background-image:url("images/electronics.jpg");
+	height:145px;
+}
+header h1{
+	margin-left:30px;
+	font-size:50px;
+}
+nav ul{
+	list-style-type:none;
+	padding:0;
+}
+nav li{
+	display:inline;
+	float:left;
+}
+nav a:link, nav a:visited{
+	background-color:#126496;
+	color:rgba(256,256,256,.8);
+	display:block;
+	width:160px;
+	text-align:center;
+	padding:10px 0;
+	margin:0;
+}
+nav a:hover{
+	background-color:black;
+}
+a{
+	text-decoration:none;
+}
+figcaption{
+	font-size:10px;
+	margin-bottom:20px;
+}
+footer nav{
+	margin-top:40px;
+}
+h3{
+	background-color:#126496;
+	width:362px;
+}
+h4{
+	margin-top:10px;
+}
+.content a:link, .content a:visited{
+	color:rgba(256,256,256,.8);
+}
+.content{
+	width:533px;
+	margin:0 auto;
+}
+.content h1{
+	margin-top:70px;
+}
+.content a:link, a:visited{
+	background-color:#126496;
+	list-style-type:none;
+}
+.content a:hover{
+	background-color:rgba(256,256,256,.8);
+	color:#126496;
+	list-style-type:none;
+}
+#whiteline{
+	background-color:rgba(256,256,256,.8);
+	width: 800px;
+	margin-top:20px;
+}
+#photo-margin-top{
+	margin-top:20px;
+}
+#copyright{
+	text-align: center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#indent{
+	margin-left:40px;
+}
+#h1-center{
+	text-align:center;
+}
